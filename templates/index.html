@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Home </title>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fa fa-bars"></i>
+		</label>
+		<label class="logo">Basic Banking System</label>
+		<ul>
+			<li><a class="active" href="home">Home</a></li>
+			<li><a href="customers">Customers</a></li>
+			<li><a href="trans">Transaction</a></li>
+		</ul>
+	</nav>
+	<section>
+		<label class="heading"> Basic Banking System</label>
+		<p class="p1">"Business and life are like a<br>
+					   bank account-you can’t take out,<br>
+			           more than you put in."</p>
+		<label class="writter">~William Feather</label>
+	</section>
+	<!-- FOOTER -->
+        <section class="foot bg-success text-white">
+            <div class="text-center">
+                &copy; Website created with <i class="fa fa-heart" style="color: red;"></i> by <a href="linkedin.com/in/shivam-raj-593b21216" target="_blank">Shivam Raj</a>    
+                <br>
+                <i></i><a>&copy; Basic Banking System 2021</a>
+            </div>
+        </section>
+
+</body>
+</html>
